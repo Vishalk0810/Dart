@@ -4,16 +4,16 @@ void main()
 {
     stdout.write("Enter the value of A :");
     String a=stdin.readLineSync()!;
-    int frist=int.parse(a);
+    int first=int.parse(a);
 
     
-    int b = frist % 10;
+    int b = first % 10;
 
-    while(frist>10)
+    while(first>10)
     {
-     frist = frist ~/ 10;
+     first = first ~/ 10;
     }
-    print("$frist + $b = ${frist + b}");
+    print("$first + $b = ${first + b}");
     
     
 }
